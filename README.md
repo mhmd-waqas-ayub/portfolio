@@ -68,3 +68,36 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Job Board REST API
+
+A production-ready REST API built using Node.js, Express, and MongoDB.
+
+### Features
+- User authentication & authorization using JWT
+- Role-based access control (Admin / User)
+- Job posting and application management
+- Secure password hashing
+- RESTful API architecture
+
+### Tech Stack
+- Node.js
+- Express.js
+- MongoDB
+- JWT
+- Mongoose
+## Social Media REST API
+
+A backend API simulating core social media functionality.
+
+### Features
+- User signup & login with JWT authentication
+- Protected routes using middleware
+- Create, update, delete posts
+- MongoDB data modeling with Mongoose
+- Clean MVC project structure
+
+### Tech Stack
+- Node.js
+- Express.js
+- MongoDB
+- JWT
