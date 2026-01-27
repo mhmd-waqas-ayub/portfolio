@@ -1,87 +1,67 @@
-// // // Import React to use JSX
-// // import React from "react";
-
-// // // Projects component
-// // function Projects() {
-// //   return (
-// //     // Projects section container
-// //     <section id="projects" className="min-h-screen flex items-center">
-// //       {/* Centered container */}
-// //       <div className="max-w-6xl mx-auto p-8">
-// //         {/* Section heading */}
-// //         <h2 className="text-3xl font-bold mb-4">Projects</h2>
-// //         <div className="grid grid-cols-1 md: grid-cols-2 gap-6">
-
-// //         {/* Project card 1 */}
-// //         <div className="bg-slate-800 p-6 rounded-md shadow-lg hover:shadow-xl transition">
-// //           {/* Project title */}
-// //           <h3 className="text-xl font-bold mb-2">Job Board API</h3>
-// //           {/* Project description */}
-// //           <p className="mb-2 text-gray-300">
-// //             Job Board API built with Node.js, Express, MongoDB, and JWT Authentication.
-// //           </p>
-// //           {/* Links */}
-// //           <div className="flex gap-4">
-// //             <a href="#" className="underline">GitHub</a>
-// //             <a href="#" className="underline">Live Demo</a>
-// //           </div>
-// //         </div>
-
-// //         {/* Project card 2 */}
-// //         <div className="bg-slate-800 p-6 rounded-md shadow-lg hover:shadow-xl transition">
-// //           {/* Project title */}
-// //           <h3 className="text-xl font-bold mb-2">Social Media API</h3>
-// //           {/* Project description */}
-// //           <p className="mb-2 text-gray-300">
-// //             Social Media API with CRUD operations, authentication and authorization.
-// //           </p>
-// //           {/* Links */}
-// //           <div className="flex gap-4">
-// //             <a href="#" className="underline">GitHub</a>
-// //             <a href="#" className="underline">Live Demo</a>
-// //           </div>
-// //         </div>
-// //         </div>
-// //       </div>
-// //     </section>
-// //   );
-// // }
-
-// // // Export Projects component
-// // export default Projects;
-// import React from "react";
+// import React from "react"; // import React
 
 // function Projects() {
 //   return (
-//     <section id="projects" className="py-24">
-//       <div className="max-w-6xl mx-auto px-6">
-//         <h2 className="text-3xl font-bold mb-8">Projects</h2>
+//     // <section id="projects" className="min-h-screen flex items-center">
+//     <section id="projects" className="pt-32 pb-24 flex items-center">
+      
+
+//       <div className="max-w-6xl mx-auto pt-24">
+//         <h2 className="text-3xl font-bold text-black dark:text-white" data-aos="fade-up">
+//         Projects
+//         </h2>
 
 //         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-//           <div className="bg-slate-800 p-6 rounded-md">
+//  <div className="bg-gray-100 dark:bg-slate-800">
 //             <h3 className="text-xl font-bold mb-2">Job Board API</h3>
-//             <p className="text-gray-300 mb-4">
-//               A backend REST API built with Node.js, Express, and MongoDB that allows
-//   companies to post jobs and users to apply. Implements JWT-based
-//   authentication, role-based authorization, and full CRUD operations
-//   following RESTful best practices
+//             <p className="text-gray-700 dark:text-gray-300">
+//               Job Board API built with Node.js, Express, MongoDB, and JWT
+//               Authentication.
 //             </p>
 //             <div className="flex gap-4">
-//               <a className="underline" href="#">GitHub</a>
-//               <a className="underline" href="#">Live</a>
+//               <a
+//                 href="https://github.com/mhmd-waqas-ayub"
+//                 target="_blank"
+//                 rel="noreferrer"
+//                 className="underline"
+//               >
+//                 GitHub
+//               </a>
+//               <a
+//                 href="https://myportfolio7951.netlify.app"
+//                 target="_blank"
+//                 rel="noreferrer"
+//                 className="underline"
+//               >
+//                 Live Demo
+//               </a>
 //             </div>
 //           </div>
 
-//           <div className="bg-slate-800 p-6 rounded-md">
+//           <div className="bg-gray-100 dark:bg-slate-800">
+
 //             <h3 className="text-xl font-bold mb-2">Social Media API</h3>
-//             <p className="text-gray-300 mb-4">
-//               A scalable backend API that supports user authentication, protected
-//   routes, and CRUD operations for posts. Built using Node.js, Express,
-//   MongoDB, and JWT with clean MVC structure.
+//             <p className="text-gray-700 dark:text-gray-300">
+//               Social Media API with CRUD operations, authentication and
+//               authorization.
 //             </p>
 //             <div className="flex gap-4">
-//               <a className="underline" href="#">GitHub</a>
-//               <a className="underline" href="#">Live</a>
+//               <a
+//                 href="https://github.com/mhmd-waqas-ayub"
+//                 target="_blank"
+//                 rel="noreferrer"
+//                 className="underline"
+//               >
+//                 GitHub
+//               </a>
+//               <a
+//                 href="https://myportfolio7951.netlify.app"
+//                 target="_blank"
+//                 rel="noreferrer"
+//                 className="underline"
+//               >
+//                 Live Demo
+//               </a>
 //             </div>
 //           </div>
 //         </div>
@@ -91,94 +71,92 @@
 // }
 
 // export default Projects;
-
-// Import React to use JSX
 import React from "react";
 
-// Projects component
 function Projects() {
   return (
-    // Projects section container
-    <section id="projects" className="min-h-screen flex items-center">
-      {/* Centered container */}
+    <section id="projects" className="pt-28 pb-20 flex items-center" data-aos="fade-up">
       <div className="max-w-6xl mx-auto p-8">
-        
-        {/* Section heading */}
-        <h2 className="text-3xl font-bold mb-6">Projects</h2>
+        <h2 className="text-3xl font-bold mb-4"data-aos="fade-up">Projects</h2>
 
-        {/* Projects grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-          {/* Project card 1 */}
-          <div className="bg-slate-800 p-6 rounded-md shadow-lg hover:shadow-xl transition">
-            
-            {/* Project title */}
+          <div className="bg-gray-200 dark:bg-slate-800 text-black dark:text-white p-6 rounded-md shadow-lg hover:shadow-xl transition">
             <h3 className="text-xl font-bold mb-2">Job Board API</h3>
-
-            {/* Project description */}
-            <p className="mb-4 text-gray-300">
-              RESTful Job Board API built using Node.js, Express, MongoDB,
-              with JWT-based authentication and role-based authorization.
+            <div className="flex gap-2 mb-2">
+              {/* <span className="px-2 py-1 bg-blue-200 dark:bg-blue-600 rounded-full text-sm">
+                Node.js
+              </span>
+              <span className="px-2 py-1 bg-blue-200 dark:bg-blue-600 rounded-full text-sm">
+                MongoDB
+              </span>
+              <span className="px-2 py-1 bg-blue-200 dark:bg-blue-600 rounded-full text-sm">
+                JWT
+              </span> */}
+            </div>
+            <p className="mb-2 text-gray-700 dark:text-gray-300">
+              Job Board API built with Node.js, Express, MongoDB, and JWT
+              Authentication.
             </p>
-
-            {/* Action buttons */}
             <div className="flex gap-4">
-              
-              {/* GitHub repository link */}
               <a
-                href="https://github.com/mhmd-waqas-ayub/portfolio"
+                href="https://github.com/mhmd-waqas-ayub"
                 target="_blank"
                 rel="noreferrer"
-                className="underline text-blue-400"
+                className="underline"
               >
                 GitHub
               </a>
-
-              {/* Live demo placeholder */}
-              <button
-                className="underline text-gray-400 cursor-not-allowed"
-                disabled
+              <a
+                href="https://myportfolio7951.netlify.app"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
               >
                 Live Demo
-              </button>
-
+              </a>
             </div>
           </div>
 
-          {/* Project card 2 */}
-          <div className="bg-slate-800 p-6 rounded-md shadow-lg hover:shadow-xl transition">
-            
+          <div className="bg-gray-200 dark:bg-slate-800 text-black dark:text-white p-6 rounded-md shadow-lg hover:shadow-xl transition">
             <h3 className="text-xl font-bold mb-2">Social Media API</h3>
-
-            <p className="mb-4 text-gray-300">
-              Backend API featuring CRUD operations, JWT authentication,
-              protected routes, and scalable REST architecture.
+            <div className="flex gap-2 mb-2">
+              {/* <span className="px-2 py-1 bg-blue-200 dark:bg-blue-600 rounded-full text-sm">
+                Node.js
+              </span>
+              <span className="px-2 py-1 bg-blue-200 dark:bg-blue-600 rounded-full text-sm">
+                Express
+              </span>
+              <span className="px-2 py-1 bg-blue-200 dark:bg-blue-600 rounded-full text-sm">
+                CRUD
+              </span> */}
+            </div>
+            <p className="mb-2 text-gray-700 dark:text-gray-300">
+              Social Media API with CRUD operations, authentication and
+              authorization.
             </p>
-
             <div className="flex gap-4">
               <a
-                href="https://github.com/mhmd-waqas-ayub/portfolio"
+                href="https://github.com/mhmd-waqas-ayub"
                 target="_blank"
                 rel="noreferrer"
-                className="underline text-blue-400"
+                className="underline"
               >
                 GitHub
               </a>
-
-              <button
-                className="underline text-gray-400 cursor-not-allowed"
-                disabled
+              <a
+                href="https://myportfolio7951.netlify.app"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
               >
                 Live Demo
-              </button>
+              </a>
             </div>
           </div>
-
         </div>
       </div>
     </section>
   );
 }
 
-// Export Projects component
 export default Projects;

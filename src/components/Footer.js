@@ -1,10 +1,13 @@
-import React from "react";
+import React from "react"; // import React
 
-function Footer(){
-    return(
-   <footer className="py-6 text-center text-gray-400 border-t border-gray-700">
-    (c) {new Date().getFullYear()}Muhammad Waqas Ayub.All right reserved.
-   </footer>
-    );
+function Footer() {
+  return (
+    <footer className="bg-slate-900 py-6 mt-10">
+      <div className="max-w-6xl mx-auto text-center text-gray-400">
+        © {new Date().getFullYear()} Muhammad Waqas Ayub. All rights reserved.
+      </div>
+    </footer>
+  );
 }
+
 export default Footer;

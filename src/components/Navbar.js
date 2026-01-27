@@ -1,48 +1,102 @@
-// Import React
-import React from "react";
-import {FaGithub,FaLinkedin} from "react-icons/fa";
+// import DarkModeToogle from "./DarkModeToogle";
+// import React from "react";
+// import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-// Navbar component
+// function Navbar() {
+//   return (
+//     <nav className="fixed w-full bg-slate-900/80 backdrop-blur z-50">
+//       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
+//         <div className="text-xl font-bold">Waqas</div>
+
+//         <div className="flex gap-6 items-center">
+//           <a href="#home" className="hover:underline">
+//             Home
+//           </a>
+//           <a href="#about" className="hover:underline">
+//             About
+//           </a>
+//           <a href="#skills" className="hover:underline">
+//             Skills
+//           </a>
+//           <a href="#projects" className="hover:underline">
+//             Projects
+//           </a>
+//           <a href="#contact" className="hover:underline">
+//             Contact
+//           </a>
+//                <DarkModeToogle/>
+//           {/* Icons inside anchor tags */}
+//           <a
+//             href="https://github.com/mhmd-waqas-ayub"
+//             target="_blank"
+//             rel="noreferrer"
+//             className="text-xl"
+//           >
+//             <FaGithub />
+//           </a>
+
+//           <a
+//             href="https://www.linkedin.com/in/muhammad-waqas-ayub-a965423a5"
+//             target="_blank"
+//             rel="noreferrer"
+//             className="text-xl"
+//           >
+//             <FaLinkedin />
+//           </a>
+//         </div>
+//       </div>
+//     </nav>
+//   );
+// }
+
+// export default Navbar;
+import React from "react";
+import DarkModeToogle from "./DarkModeToogle";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 function Navbar() {
   return (
-    // Navbar container fixed on top
-    <nav className="fixed w-full bg-slate-900/80 backdrop-blur z-50">
-      {/* Navbar content */}
+    <nav className="fixed w-full bg-slate-800/70 dark:bg-slate-900/80 backdrop-blur z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
-        {/* Brand name */}
-        <div className="text-xl font-bold">Waqas</div>
+        <div className="text-xl font-bold text-black dark:text-white">
+          Waqas
+        </div>
 
-        {/* Links */}
-        <div className="flex gap-6">
-          {/* Link to home section */}
-          <a href="#home" className="hover:underline">
+        <div className="flex gap-6 items-center">
+          <a href="#home" className="hover:underline text-black dark:text-white">
             Home
           </a>
-
-          {/* Link to about section */}
-          <a href="#about" className="hover:underline">
+          <a href="#about" className="hover:underline text-black dark:text-white">
             About
           </a>
-
-          {/* Link to skills section */}
-          <a href="#skills" className="hover:underline">
+          <a href="#skills" className="hover:underline text-black dark:text-white">
             Skills
           </a>
-
-          {/* Link to projects section */}
-          <a href="#projects" className="hover:underline">
+          <a href="#projects" className="hover:underline text-black dark:text-white">
             Projects
           </a>
-
-          {/* Link to contact section */}
-          <a href="#contact" className="hover:underline">
+          <a href="#contact" className="hover:underline text-black dark:text-white">
             Contact
           </a>
-          <a href="https://github.com/" target="_blank" rel="noreferrer">
-          <FaGithub/>
+
+          <DarkModeToogle />
+
+          <a
+            href="https://github.com/mhmd-waqas-ayub"
+            target="_blank"
+            rel="noreferrer"
+            className="text-xl text-black dark:text-white"
+          >
+            <FaGithub />
           </a>
-          <a href="https://likedin.com/" target="_blank" rel="noreferrer">
-          <FaLinkedin/>
+
+          <a
+            href="https://www.linkedin.com/in/muhammad-waqas-ayub-a965423a5"
+            target="_blank"
+            rel="noreferrer"
+            className="text-xl text-black dark:text-white"
+          >
+            <FaLinkedin />
           </a>
         </div>
       </div>
@@ -51,28 +105,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-// import React from "react";
-
-
-// function Navbar(){
-//     return(
-//         <nav className="fixed w-full top-0 left-0 bg-slate-900 shadow-md">
-//             <div className="max=w=6xl mx-auto flex justify-between items-center p-4">
-//                 <div className="text-xl font-bold">
-//                 Waqas Portfolio
-//             </div>
-//             <div className="space-x-4">
-//                 <a href="#home"className="hover:text-blue-400">Home</a>
-//                 <a href="#about"className="hover:text-blue-400">About</a>
-//                 <a href="#projects"className="hover:text-blue-400">Projects</a>
-//                 <a href="skills"className="hover:text-blue-400">Skills</a>
-//                 <a href="contact"className="hover:text-blue-400">Contact</a>
-//             </div>
-//             </div>
-            
-//         </nav>
-
-//     );
-// }
-// export default Navbar;
