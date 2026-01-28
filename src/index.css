@@ -2,6 +2,15 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
 }
+/* index.css */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 
 @tailwind base;
 @tailwind components;

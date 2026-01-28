@@ -82,7 +82,7 @@ function Hero() {
               Contact Me
             </a>
             <a
-            href="/Waqas_Resume.pdf"
+            href="Waqas_Resume.pdf"
             download
             className="px-8 py-3 bg-gray-800 dark:bg-gray-200 hover:bg-gray-700 hover:scale-105 dark:hover:scale-105 rounded-md transition text-white dark:text-black transition"
           >

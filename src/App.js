@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="bg-white dark:bg-slate-900 text-black dark:text-white">
+    <div className="bg-white dark:bg-slate-900 text-black dark:text-white ">
       <Navbar />
 
       {/* THIS FIXES OVERLAP EVERYWHERE */}
