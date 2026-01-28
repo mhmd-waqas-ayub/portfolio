@@ -75,7 +75,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <section id="projects" className="pt-28 pb-20 flex items-center" data-aos="fade-up">
+    <section id="projects" className="pt-28 pb-24 min-h-screen" data-aos="fade-up">
       <div className="max-w-6xl mx-auto p-8">
         <h2 className="text-3xl font-bold mb-4"data-aos="fade-up">Projects</h2>
 

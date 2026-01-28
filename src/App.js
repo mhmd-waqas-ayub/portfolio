@@ -6,19 +6,23 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
 function App() {
   return (
-    <div className="min-h-screen bg-white text-black dark:bg-slate-900 dark:text-white">
+    <div className="bg-white dark:bg-slate-900 text-black dark:text-white">
       <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+
+      {/* THIS FIXES OVERLAP EVERYWHERE */}
+      <div className="pt-20">
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }
+
 
 export default App;

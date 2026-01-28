@@ -34,13 +34,15 @@ function Skills() {
     "Node.js",
     "Express.js",
     "MongoDB",
+    "Tailwind",
+    "Git",
     "JWT Authentication",
     "REST APIs",
     "HTML & CSS",
   ];
 
   return (
-    <section id="skills" className="pt-28 pb-20 / " data-aos="fade-up">
+    <section id="skills" className="pt-28 pb-24 min-h-screen" data-aos="fade-up">
       <div className="max-w-6xl mx-auto p-8">
         <h2 className="text-3xl font-bold mb-4 "data-aos="fade-up">Skills</h2>
 
@@ -48,8 +50,8 @@ function Skills() {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="bg-gray-200 dark:bg-slate-800 text-black dark:text-white p-4 rounded-md"
-            >
+              className="p-4 rounded-xl bg-gray-100 dark:bg-slate-800 text-center font-semibold shadow hover:scale-105 transition">
+            
               {skill}
             </div>
           ))}

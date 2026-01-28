@@ -71,16 +71,23 @@ function Hero() {
           <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
             <a
               href="#projects"
-              className="px-8 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition"
+              className="px-8 py-3 bg-gray-800 dark:bg-gray-200 hover:bg-gray-700 hover:scale-105 dark:hover:scale-105  rounded-md transition text-white dark:text-black transition"
             >
               View Projects
             </a>
             <a
               href="#contact"
-              className="px-8 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition"
+              className="px-8 py-3 bg-gray-800 dark:bg-gray-200 hover:bg-gray-700 hover:scale-105 dark:hover:scale-105 rounded-md transition text-white dark:text-black transition"
             >
               Contact Me
             </a>
+            <a
+            href="/Waqas_Resume.pdf"
+            download
+            className="px-8 py-3 bg-gray-800 dark:bg-gray-200 hover:bg-gray-700 hover:scale-105 dark:hover:scale-105 rounded-md transition text-white dark:text-black transition"
+          >
+            Download Resume
+          </a>
           </div>
         </div>
       </div>

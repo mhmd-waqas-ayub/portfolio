@@ -26,7 +26,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <section id="contact" className="pt-24 pb-16" data-aos="fade-up">
+    <section id="contact" className="pt-28 pb-24 min-h-screen" data-aos="fade-up">
       <div className="max-w-6xl mx-auto p-8">
         <h2 className="text-3xl font-bold mb-4"data-aos="fade-up">Contact</h2>
         <p className="text-gray-700 dark:text-gray-300 mb-2">
